@@ -1,11 +1,20 @@
-
+import React, { useState } from 'react'
+import {Navbar, Welcome, Footer, Services, Transactions, Loader} from './components'
 
 const App = () => {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className='min-h-screen'>
+      <div className='gradien-bg-welcome'>
+        <Navbar />
+        <Welcome />
+      </div>
+      <Services/>
+      <Transactions/>
+      <Footer/>
+    </div>
     </>
   );
 }
