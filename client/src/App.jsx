@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <div className='min-h-screen'>
-      <div className='gradien-bg-welcome'>
+      <div className='gradient-bg-welcome'>
         <Navbar />
         <Welcome />
       </div>
